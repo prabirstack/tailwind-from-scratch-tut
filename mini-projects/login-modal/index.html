@@ -13,25 +13,25 @@
       tailwind.config = {
         theme: {
           fontFamily: {
-            sans: ['Mulish', 'sans-serif'],
-            mono: ['Rokkitt', 'monospace'],
+            sans: ["Mulish", "sans-serif"],
+            mono: ["Rokkitt", "monospace"],
           },
         },
-      }
+      };
     </script>
     <title>Login Modal</title>
   </head>
   <body>
-    <!-- Global Container -->
+    <!-- Global container -->
     <div class="flex items-center justify-center min-h-screen bg-rose-50">
-      <!-- Card Container -->
+      <!-- card container -->
       <div
         class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0"
       >
-        <!-- Left Side -->
+        <!-- left side -->
         <div class="p-6 md:p-20">
-          <!-- Top Content -->
-          <h2 class="font-mono mb-5 text-4xl font-bold">Log In</h2>
+          <!-- TOP CONTENT -->
+          <h2 class="mb-5 font-mono text-4xl font-bold">Log In</h2>
           <p class="max-w-sm mb-12 font-sans font-light text-gray-600">
             Log in to your account to upload or download pictures, videos or
             music.
@@ -42,14 +42,13 @@
             placeholder="Enter your email address"
           />
 
-          <!-- Middle Content -->
+          <!-- middle content -->
           <div
             class="flex flex-col items-center justify-between mt-6 space-y-6 md:flex-row md:space-y-0"
           >
             <div class="font-thin text-cyan-700">Forgot password</div>
-
             <button
-              class="w-full md:w-auto flex justify-center items-center p-6 space-x-4 font-sans font-bold text-white rounded-md shadow-lg px-9 bg-cyan-700 shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150"
+              class="flex items-center justify-center w-full p-6 space-x-4 font-sans font-bold text-white transition border rounded-md shadow-sm px-9 bg-cyan-700 md:w-auto shadow-cyan-100 hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 duration-150"
             >
               <span>Next</span>
               <svg
@@ -69,40 +68,40 @@
               </svg>
             </button>
           </div>
-
-          <!-- Border -->
-          <div class="mt-12 border-b border-b-gray-300"></div>
-
-          <!-- Bottom Content -->
+          <!-- border -->
+          <div class="mt-12 border-b border-gray-300"></div>
+          <!-- bottom content -->
           <p class="py-6 text-sm font-thin text-center text-gray-400">
             or log in with
           </p>
-
-          <!-- Bottom Buttons Container -->
+          <!-- bottom buttons container -->
           <div
             class="flex flex-col space-x-0 space-y-6 md:flex-row md:space-x-4 md:space-y-0"
           >
             <button
-              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition duration-150 md:w-1/2"
+              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 duration-150 md:w-1/2"
             >
-              <img src="images/facebook.png" alt="" class="w-9" />
+              <img src="./images/facebook.png" alt="facebook" class="w-9" />
               <span class="font-thin">Facebook</span>
             </button>
             <button
-              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition duration-150 md:w-1/2"
+              class="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 duration-150 md:w-1/2"
             >
-              <img src="images/google.png" alt="" class="w-9" />
+              <img src="./images/google.png" alt="google" class="w-9" />
               <span class="font-thin">Google</span>
             </button>
           </div>
         </div>
 
-        <!-- Right Side -->
-        <img src="images/image.jpg" alt="" class="w-[430px] hidden md:block" />
-
-        <!-- Close Button -->
+        <!-- right side -->
+        <img
+          src="./images/image.jpg"
+          alt=""
+          class="w-[430px] hidden md:block"
+        />
+        <!-- close btn -->
         <div
-          class="group absolute -top-5 right-4 flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full md:bg-white md:top-4 hover:cursor-pointer hover:-translate-y-0.5 transition duration-150"
+          class="absolute flex items-center justify-center bg-gray-200 rounded-full group -top-5 right-4 size-6 md:bg-white md:top-4 hover:cursor-pointer hover:-translate-y-0.5 transition duration-150"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
